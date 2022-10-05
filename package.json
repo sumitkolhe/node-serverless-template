@@ -7,7 +7,7 @@
   "main": "index.js",
   "repository": "https://github.com/sumitkolhe/node-serverless-template",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon",
+    "dev": "cross-env NODE_ENV=development tsx ./src/server.ts",
     "start": "npm run build && cross-env NODE_ENV=production node dist/server.js",
     "build": "tsc",
     "pretty": "prettier --write \"./**/*.{js,ts,json}\"",
@@ -39,6 +39,7 @@
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1",
+    "tsx": "^3.9.0",
     "typescript": "^4.8.4"
   }
 }
