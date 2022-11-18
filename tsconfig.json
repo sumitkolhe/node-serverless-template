@@ -1,6 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "strict": true,
     "target": "ESNext",
     "lib": ["ESNext", "esnext.asynciterable"],
     "typeRoots": ["node_modules/@types"],
